@@ -1,8 +1,8 @@
 package ru.mirea.task2;
 
 public class Shape {
-    int size;
-    String type;
+    private int size;
+    private String type;
 
     Shape(int size, String type) {
         this.size = size;

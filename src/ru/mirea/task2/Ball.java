@@ -1,13 +1,20 @@
 package ru.mirea.task2;
 
 public class Ball {
+    private String type;
+    private String size;
+
+    Ball(String type, String size){
+        this.type = type;
+        this.size = size;
+    }
+
     public String getType() {
         return type;
     }
     public void setType(String type) {
         this.type = type;
     }
-    private String type;
 
     public String getSize() {
         return size;
@@ -15,12 +22,7 @@ public class Ball {
     public void setSize(String size) {
         this.size = size;
     }
-    private String size;
 
-    public Ball(String type, String size){
-        this.type = type;
-        this.size = size;
-    }
     public String toString (){
         return "This ball characteristic is " + type + ", " + size;
     }
