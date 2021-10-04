@@ -66,8 +66,8 @@ public class example {
     }
 
     public static void main(String[] args) {
-        exercise_1();
-        //exercise_2(args);
+        //exercise_1();
+        exercise_2(args);
         //exercise_3();
         //exercise_4();
         //exercise_5();
