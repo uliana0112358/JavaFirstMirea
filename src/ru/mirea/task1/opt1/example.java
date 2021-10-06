@@ -53,7 +53,7 @@ public class example {
 
     static void exercise_5(){
         Scanner sc = new Scanner(System.in);
-        int i = 04;
+        int i = 0;
         System.out.println("Enter number: ");
         if (sc.hasNextInt())
             i = sc.nextInt();
