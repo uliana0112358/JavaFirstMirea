@@ -11,7 +11,7 @@ public class Game {
         jFrame.setSize(700, 500);
         jFrame.setDefaultCloseOperation(jFrame.EXIT_ON_CLOSE); // для закрытия окна
         jFrame.setVisible(true); // чтобы отобразить окно на экране
-        jFrame.setLocation(400,150); // позиция на экран
+        jFrame.setLocation(400,150); // позиция на экране
 
         JPanel jPanel = new JPanel();
         jFrame.add(jPanel);
